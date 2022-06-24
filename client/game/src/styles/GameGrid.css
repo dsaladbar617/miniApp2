@@ -1,0 +1,50 @@
+#root {
+  height: 100vh;
+  background-color: gray;
+}
+
+table {
+  border-style: solid;
+  margin: auto;
+  padding-top: 250px;
+}
+
+td {
+  justify-content: space-evenly;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+
+}
+
+.zero {
+  background-color: blue;
+  margin: 0px;
+  padding: 0px;
+}
+
+.one {
+  background-color: red;
+  background-image: url(../../public/images/pngwing.com.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cellcontain {
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hidden {
+  display: none;
+}
